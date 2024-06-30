@@ -1,0 +1,26 @@
+{
+  "name": "create-vegam-app",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "create-vegam-app":"index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajnash-ibn-umer/create-vegam-starter-script.git"
+  },
+  "keywords": [
+    "script",
+    "starter"
+  ],
+  "author": "ajnash.aju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajnash-ibn-umer/create-vegam-starter-script/issues"
+  },
+  "homepage": "https://github.com/Ajnash-ibn-umer/create-vegam-starter-script#readme"
+}

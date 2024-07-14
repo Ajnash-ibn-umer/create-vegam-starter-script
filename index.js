@@ -10,7 +10,10 @@ const runCommand = (command) => {
 };
 
 const repoName = process.argv[2];
-
+if(repoName === undefined){
+    console.error("Must be add project folder name");
+    process.exit(-1);
+}
 if (!repoName || repoName === "") {
   console.error("Must be add project folder name");
   process.exit(-1);
